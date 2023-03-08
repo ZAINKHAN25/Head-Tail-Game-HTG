@@ -2,7 +2,7 @@ button.addEventListener("click", () => {
 
         var number = document.getElementById('number').value;
         var button = document.querySelector('#button');
-        var autogenerate = Math.round(Math.random() * 0 + 1)
+        var autogenerate = Math.round(Math.random() * 20)
         var yourscore = document.querySelector('#yourscore');
         var highscore = document.querySelector('#highscore');
         var currentchances = document.querySelector("#currentchances");
